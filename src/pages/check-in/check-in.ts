@@ -4,7 +4,11 @@ import { Component } from '@angular/core';
   selector: 'page-check-in',
   templateUrl: 'check-in.html'
 })
+
+
 export class CheckInPage {
+
+
 	slides = [
     {
       title: "Paso 1",
@@ -19,6 +23,11 @@ export class CheckInPage {
     {
       title: "Paso 3",
       description: "Abre la puerta...",
+      image: "assets/imgs/slide-3.png",
+    },
+    {
+      title: "Paso 4",
+      description: "Disfruta de tu estancia...",
       image: "assets/imgs/slide-3.png",
     }
   ];

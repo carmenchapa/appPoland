@@ -7,6 +7,10 @@ import { ReservaPage } from '../pages/reserva/reserva';
 import { ViajePage } from '../pages/viaje/viaje';
 import { ListPage } from '../pages/list/list';
 
+//
+import { SliderTestPage } from '../pages/slider-test/slider-test';
+//
+
 import { StatusBar } from '@ionic-native/status-bar';
 import { SplashScreen } from '@ionic-native/splash-screen';
 
@@ -35,6 +39,7 @@ export class MyApp {
       { title: 'Reserva', component: ReservaPage },
       { title: 'Viaje', component: ViajePage },
       { title: 'My First List', component: ListPage }
+      // { title: 'Slider', component: SliderTestPage }
     ];
   }
 

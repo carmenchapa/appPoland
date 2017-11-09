@@ -11,6 +11,11 @@ import { CheckInPage } from '../pages/check-in/check-in';
 import { StayPage } from '../pages/stay/stay';
 import { CheckOutPage } from '../pages/check-out/check-out';
 
+//
+import { SliderTestPage } from '../pages/slider-test/slider-test';
+//
+
+
 import { ItemDetailsPage } from '../pages/item-details/item-details';
 import { ListPage } from '../pages/list/list';
 
@@ -27,6 +32,8 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CheckInPage,
     StayPage,
     CheckOutPage,
+
+    // SliderTestPage,
 
     ItemDetailsPage,
     ListPage
@@ -48,6 +55,9 @@ import { SplashScreen } from '@ionic-native/splash-screen';
     CheckInPage,
     StayPage,
     CheckOutPage,
+    
+    // SliderTestPage,
+
     ItemDetailsPage,
     ListPage
   ],

@@ -4,17 +4,61 @@ page-check-in {
 	}
 
 	.card {
-		/*max-height: 30%;*/
 		margin-top: 0;
+		max-height: 20em;
 
 	}
 
 	.slide-image {
-	    max-height: 200px;
+	    max-height: 15em;
 	    margin: auto;
-	    /*max-width: 60px;*/
 	    padding: 16px;
 	   
-  }
+	}
+
+	.scroll-content {
+		width: 700px;
+		height: 300px;
+	}
+
+
+
+/*	.scroll-content {
+		width: 300px;
+
+	}*/
+
+/*	.swiper-container {
+		width: 300px;
+		height: 300px;
+		margin: 0;
+
+	}*/
+
+/*	.swiper-wrapper {
+  @include padding(0);
+
+  position: relative;
+  z-index: 1;
+
+  display: flex;
+
+  width: 100%;
+  height: 100%;
+
+  transition-property: transform;
+
+  box-sizing: content-box;
+}*/
+
+	.slider-slide {
+	    /*padding-top: 80px;*/
+	    /*width: 90% !important;*/
+	    /*width: 200px !important;*/
+	    /*border: 1px solid #000;*/
+/*	    margin: 62px 56px;
+	    padding-left: 20px;
+	    padding-right: 20px;*/
+	}
 
 }

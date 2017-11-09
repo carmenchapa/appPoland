@@ -1,0 +1,25 @@
+<ion-header>
+  <ion-navbar primary>
+    <ion-title>
+      Slider test
+    </ion-title>
+  </ion-navbar>
+</ion-header>
+
+<ion-content class="has-header">
+  <div padding style="text-align: center;">
+    <h1>Slider 2 Test</h1>
+    <p>
+      Use this template to create a demo environment where the issues you're facing are reproduced. This will help us in easily reproducing your issue and solving it faster (:
+    </p>
+    <button secondary (click)="goToPage1()">Thanks!</button>
+    <div>
+      <ion-slides slides [options]="_options" >
+        <ion-slide>Slide1</ion-slide>
+        <ion-slide>Slide2</ion-slide>
+        <ion-slide>Slide3</ion-slide>
+        <ion-slide>Slide4</ion-slide>
+      </ion-slides>
+    </div>
+  </div>
+</ion-content>

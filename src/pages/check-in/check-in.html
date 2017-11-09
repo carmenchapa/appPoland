@@ -24,22 +24,37 @@
   <p>
    Cómo acceder: 
   </p>
-  <ion-slides pager>
-    <ion-slide *ngFor="let slide of slides">
-   <!--    <ion-toolbar>
-        <ion-buttons end>
-          <button ion-button color="primary">Skip</button>
-        </ion-buttons>
-      </ion-toolbar> -->
+  <ion-scroll scrollX="true" >
+    <div>
+    <ion-card class="card">
+        <img src="assets/imgs/slide-1.png" class="slide-image"/>
+        <ion-card-content>
+          <!-- <ion-card-title [innerHTML]="slide.title"></ion-card-title> -->
+          <!-- <p [innerHTML]="slide.description"></p> -->
+        </ion-card-content>
+      </ion-card>
+      <ion-card class="card">
+        <img src="assets/imgs/slide-1.png" class="slide-image"/>
+        <ion-card-content>
+          <!-- <ion-card-title [innerHTML]="slide.title"></ion-card-title> -->
+          <!-- <p [innerHTML]="slide.description"></p> -->
+        </ion-card-content>
+      </ion-card>
+    </div>
+  </ion-scroll>
+
+
+<!--   <ion-slides class="slider-box">
+    <ion-slide class="slider-slide" *ngFor="let slide of slides">
       <ion-card class="card">
         <img [src]="slide.image" class="slide-image"/>
         <ion-card-content>
           <!-- <ion-card-title [innerHTML]="slide.title"></ion-card-title> -->
-          <p [innerHTML]="slide.description"></p>
+<!--           <p [innerHTML]="slide.description"></p>
         </ion-card-content>
       </ion-card>
     </ion-slide>
-  </ion-slides>
+  </ion-slides>  -->
 
 </ion-content>
 
